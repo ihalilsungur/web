@@ -1,14 +1,16 @@
 <template>
   <div class="hello">
    <app-deneme></app-deneme>
+   <app-home></app-home>
   </div>
 </template>
 
 <script>
 import Deneme from "@/components/Deneme"
+import Home from "@/components/Home"
 export default {
  components:{
-   appDeneme:Deneme
+   appHome:Home
  }
 }
 </script>
