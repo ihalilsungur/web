@@ -1,14 +1,18 @@
 <template>
   <div class="hello">
-   
+   <app-page></app-page>
   </div>
 </template>
 
 <script>
+import Page from "@/components/Page"
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  components:{
+   appPage : Page
   }
 }
 </script>
