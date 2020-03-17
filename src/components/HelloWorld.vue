@@ -1,19 +1,20 @@
 <template>
   <div class="hello">
-   
+   <app-deneme></app-deneme>
+   <app-home></app-home>
   </div>
 </template>
 
 <script>
+import Deneme from "@/components/Deneme"
+import Home from "@/components/Home"
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+ components:{
+   appHome:Home
+ }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
